@@ -1,0 +1,9 @@
+
+<button (click)="openTab()">btn1</button>
+<p-sidebar class="menuPanel" [(visible)]="opened" position="right" [showCloseIcon]="true" autoZIndex="true" baseZIndex="99999">
+Sidebar1
+<button (click)="openTab2()">btn2</button>
+    <p-sidebar class="menuPanel" [(visible)]="filterStatus" position="top" [showCloseIcon]="true" autoZIndex="false" baseZIndex="9999999">
+       sidebar2
+    </p-sidebar>
+</p-sidebar>
